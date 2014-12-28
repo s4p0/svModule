@@ -1,0 +1,18 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "."
+		}
+	],
+        "settings": 
+        {
+        "python_interpreter_path": "/home/felipecorrea/Dropbox/ForestWatchers/svModule/.svenv/bin/python",
+
+        "python_package_paths": [
+            "/home/felipecorrea/Dropbox/ForestWatchers/svModule/.svenv/lib/python2.7",
+            "/home/felipecorrea/Dropbox/ForestWatchers/svModule/.svenv/lib/python2.7/site-packages",
+            ]
+    }
+}

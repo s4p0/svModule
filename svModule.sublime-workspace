@@ -1,0 +1,2237 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Al",
+				"AllUsers	class"
+			],
+			[
+				"clas",
+				"class	New Class"
+			],
+			[
+				"us",
+				"user_id"
+			],
+			[
+				"impo",
+				"import"
+			],
+			[
+				"_",
+				"__name__	class"
+			],
+			[
+				"cal",
+				"class	New Class"
+			],
+			[
+				"tru",
+				"True	class"
+			],
+			[
+				"flas",
+				"flask	(module)"
+			],
+			[
+				"install",
+				"install_requires=['Django>=1.3"
+			],
+			[
+				"cl",
+				"class	Attr"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"over",
+				"overflow"
+			],
+			[
+				"Bing",
+				"BingMaps"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"style",
+				"style	Attr"
+			],
+			[
+				"defau",
+				"defaults"
+			],
+			[
+				"hei",
+				"height"
+			],
+			[
+				"stati",
+				"static_folder	(param)"
+			],
+			[
+				"stat",
+				"static_folder	(param)"
+			],
+			[
+				"temp",
+				"template_folder	(param)"
+			],
+			[
+				"url",
+				"url_for	(function)"
+			],
+			[
+				"ho",
+				"home	(module)"
+			],
+			[
+				"im",
+				"import	(keyword)"
+			],
+			[
+				"render",
+				"render_template	(function)"
+			],
+			[
+				"rou",
+				"route	(function)"
+			],
+			[
+				"__",
+				"__name__"
+			],
+			[
+				"Blu",
+				"Blueprint	(class)"
+			],
+			[
+				"if",
+				"ifmain	if __name__ == '__main__'"
+			],
+			[
+				"inclu",
+				"includegraphics{name}	latex-document"
+			],
+			[
+				"label",
+				"label{key}	latex-document"
+			],
+			[
+				"section",
+				"section{title}	latex-document"
+			],
+			[
+				"subsub",
+				"subsubsection{title}	latex-document"
+			],
+			[
+				"sec",
+				"section{title}	latex-document"
+			],
+			[
+				"subsec",
+				"subsection{title}	latex-document"
+			],
+			[
+				"subsb",
+				"subsubsection{title}	latex-document"
+			],
+			[
+				"chap",
+				"chapter{title}	latex-document"
+			],
+			[
+				"include",
+				"include{file}	latex-document"
+			],
+			[
+				"ref",
+				"ref{key}	latex-document"
+			],
+			[
+				"item",
+				"item[label]	latex-document"
+			],
+			[
+				"foot",
+				"footnote[number]{text}	latex-document"
+			],
+			[
+				"newen",
+				"newenvironment{nam}{begdef}{enddef}	latex-document"
+			],
+			[
+				"proposta",
+				"begin{proposta}	publicacao.tex"
+			],
+			[
+				"subse",
+				"subsection{title}	latex-document"
+			],
+			[
+				"usepa",
+				"usepackage{package}	latex-document"
+			],
+			[
+				"ite",
+				"item[label]	latex-document"
+			],
+			[
+				"cite",
+				"bibitem{citekey}	latex-document"
+			],
+			[
+				"UT",
+				"UTF-8"
+			],
+			[
+				"meta",
+				"metadata"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"hel",
+				"helpers"
+			],
+			[
+				"fanc",
+				"fancybox"
+			],
+			[
+				"fan",
+				"fancybox"
+			],
+			[
+				"btn",
+				"btnmedia"
+			],
+			[
+				"fancy",
+				"fancybox-manual"
+			],
+			[
+				"before",
+				"beforeShow"
+			],
+			[
+				"button",
+				"bs3-button:info	bs3-button-info"
+			],
+			[
+				"but",
+				"bs3-button:info	bs3-button-info"
+			],
+			[
+				"class",
+				"class"
+			],
+			[
+				"au",
+				"audio_link"
+			],
+			[
+				"fay",
+				"fancybox-manual"
+			],
+			[
+				"web",
+				"webm"
+			],
+			[
+				"mov",
+				"movie_link"
+			],
+			[
+				"set",
+				"setBadgeCounter"
+			],
+			[
+				"Lay",
+				"layerName"
+			],
+			[
+				"remo",
+				"remove"
+			],
+			[
+				"rel",
+				"reload"
+			],
+			[
+				"val",
+				"values"
+			],
+			[
+				"visib",
+				"visibility"
+			],
+			[
+				"has",
+				"hasClass"
+			],
+			[
+				"el",
+				"element"
+			],
+			[
+				"ele",
+				"element"
+			],
+			[
+				"Sha",
+				"SHADOW_Z_INDEX"
+			],
+			[
+				"file",
+				"filePath"
+			],
+			[
+				"thum",
+				"thumbnail_path"
+			],
+			[
+				"li",
+				"li"
+			],
+			[
+				"ea",
+				"each	{{#each }} {{/each}}"
+			],
+			[
+				"link",
+				"linkto	{{#link-to}} {{/link-to}}"
+			],
+			[
+				"bm",
+				"bmextend	Backbone.js model extend"
+			],
+			[
+				"mo",
+				"memoize	Function with memoization"
+			],
+			[
+				"todo",
+				"todo1"
+			],
+			[
+				"ini",
+				"initialize"
+			],
+			[
+				"exte",
+				"extend"
+			],
+			[
+				"Eve",
+				"Events"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"annou",
+				"annouce"
+			],
+			[
+				"attr",
+				"attributes"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"eve",
+				"eventNumber"
+			],
+			[
+				"to",
+				"topic"
+			],
+			[
+				"for",
+				"forin	for in own properties"
+			],
+			[
+				"cran",
+				"Cranium"
+			],
+			[
+				"e",
+				"Events"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"chart",
+				"chart_data"
+			],
+			[
+				"char",
+				"chart_container"
+			],
+			[
+				"ser",
+				"series"
+			],
+			[
+				"ac",
+				"actual_header"
+			],
+			[
+				"act",
+				"actual_chunk"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"csv",
+				"csv_form"
+			],
+			[
+				"sel",
+				"xaxis_selector"
+			],
+			[
+				"key",
+				"keys"
+			],
+			[
+				"pars",
+				"parsed_json"
+			],
+			[
+				"par",
+				"parsed_json"
+			],
+			[
+				"ra",
+				"raw_data"
+			],
+			[
+				"inp",
+				"inputs"
+			],
+			[
+				"sub",
+				"submit"
+			],
+			[
+				"min",
+				"minus"
+			],
+			[
+				"form",
+				"form_csv_class"
+			],
+			[
+				"add",
+				"add_form_col"
+			],
+			[
+				"div",
+				"div_form_group"
+			],
+			[
+				"lay",
+				"Layer"
+			],
+			[
+				"rota",
+				"rotation"
+			],
+			[
+				"app",
+				"append"
+			],
+			[
+				"lon",
+				"longitude"
+			],
+			[
+				"EP",
+				"EPSG"
+			],
+			[
+				"visi",
+				"visibility"
+			],
+			[
+				"sens",
+				"sensors"
+			],
+			[
+				"sensos",
+				"sensors"
+			],
+			[
+				"sensor",
+				"sensor-text"
+			],
+			[
+				"elem",
+				"element"
+			],
+			[
+				"fea",
+				"feature"
+			],
+			[
+				"feat",
+				"feature"
+			],
+			[
+				"loca",
+				"location"
+			],
+			[
+				"senso",
+				"sensorLayer"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "__init__.py",
+			"settings":
+			{
+				"buffer_size": 514,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/felipecorrea/.config/sublime-text-3/Packages/User/sublime_jedi.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 46,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "run.py",
+			"settings":
+			{
+				"buffer_size": 27,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "configure.py",
+			"settings":
+			{
+				"buffer_size": 12,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "models.py",
+			"settings":
+			{
+				"buffer_size": 1411,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/felipecorrea/pgmodeler/linuxdeploy.",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/felipecorrea/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 686,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/felipecorrea/.config/sublime-text-3/Packages/Jedi - Python autocompletion/sublime_jedi.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 845,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/LaTeXing/LaTeX.sublime-build",
+	"command_palette":
+	{
+		"height": 400.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"snippet",
+				"Snippet: self"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"get do",
+				"Python: Get documentation"
+			],
+			[
+				"python",
+				"Python: Get documentation"
+			],
+			[
+				"wor",
+				"Word Wrap: Toggle"
+			],
+			[
+				"service",
+				"Snippet: ngService"
+			],
+			[
+				"12",
+				"Snippet: bs3-col-12"
+			],
+			[
+				"row",
+				"Snippet: bs3-row"
+			],
+			[
+				"bs3co",
+				"Snippet: bs3-container"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"controll",
+				"Snippet: ngController"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"bs3con",
+				"Snippet: bs3-container"
+			],
+			[
+				"bs3col",
+				"Snippet: bs3-col-12"
+			],
+			[
+				"bs3ro	",
+				"Snippet: bs3-row"
+			],
+			[
+				"bs312",
+				"Snippet: bs3-col-12"
+			],
+			[
+				"row	",
+				"Snippet: bs3-row"
+			],
+			[
+				"col-12",
+				"Snippet: bs3-col-12"
+			],
+			[
+				"bs3 col 12",
+				"Snippet: bs3-col-12"
+			],
+			[
+				"prett",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"pret",
+				"HTMLPrettify"
+			],
+			[
+				"form",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"angular",
+				"Set Syntax: HTML (Angular.js)"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"button",
+				"Snippet: bs3-button-info"
+			],
+			[
+				"bs3 but",
+				"Snippet: bs3-button"
+			],
+			[
+				"format",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"jas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"enum",
+				"Snippet: Enumerate"
+			],
+			[
+				"item",
+				"Snippet: Itemize"
+			],
+			[
+				"build",
+				"Build: Build"
+			],
+			[
+				"clean",
+				"LaTeXing: Clean Temporary Output Dictionary"
+			],
+			[
+				"clea",
+				"Build: Clean up Files"
+			],
+			[
+				"choos",
+				"Build: Choose Quick Build"
+			],
+			[
+				"bhuild",
+				"Build: Choose Quick Build"
+			],
+			[
+				"cache",
+				"LaTeXing: Rebuild Cache"
+			],
+			[
+				"ital",
+				"Snippet: Italic Shape Text"
+			],
+			[
+				"latex",
+				"LaTeXing: Texcount"
+			],
+			[
+				"buil",
+				"Build: Primary Quick Build"
+			],
+			[
+				"sidebar",
+				"View: Toggle Side Bar"
+			],
+			[
+				"cleanu",
+				"Build: Clean up Files"
+			],
+			[
+				"clear",
+				"Bookmarks: Clear All"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"stat",
+				"Git: Status"
+			],
+			[
+				"git co",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"itali",
+				"Snippet: Italic Shape Text"
+			],
+			[
+				"ita",
+				"Snippet: Italic Shape Text"
+			],
+			[
+				"buidl",
+				"Build: Build"
+			],
+			[
+				"buid",
+				"Build: Build"
+			],
+			[
+				"enume",
+				"Snippet: Enumerate"
+			],
+			[
+				"clan",
+				"LaTeXing: Clean up (Remove) all Nonessential Files"
+			],
+			[
+				"clena",
+				"LaTeXing: Clean up (Remove) all Nonessential Files"
+			],
+			[
+				"italic",
+				"Snippet: Italic Shape Text"
+			],
+			[
+				"snipp figure",
+				"Snippet: New figure"
+			],
+			[
+				"snip misc",
+				"Snippet: BibTeX Misc"
+			],
+			[
+				"bib",
+				"Build: Build"
+			],
+			[
+				"biuld",
+				"Build: Primary Quick Build"
+			],
+			[
+				"snipe bib mi",
+				"Snippet: BibTeX Misc"
+			],
+			[
+				"bibtex con",
+				"Snippet: BibTeX Conference"
+			],
+			[
+				"snippe bib con",
+				"Snippet: BibTeX Conference"
+			],
+			[
+				"snippe bibtex",
+				"Snippet: BibTeX Article"
+			],
+			[
+				"enu",
+				"Snippet: Enumerate"
+			],
+			[
+				"set tex",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"set sty",
+				"Set Syntax: TeX"
+			],
+			[
+				"math",
+				"Set Syntax: TeX Math"
+			],
+			[
+				"snippet bibtex",
+				"Snippet: BibTeX Article"
+			],
+			[
+				"bold",
+				"Snippet: Boldface Text"
+			],
+			[
+				"bol",
+				"Snippet: Boldface Text"
+			],
+			[
+				"bui",
+				"LaTeXing: Buy License"
+			],
+			[
+				"git:",
+				"Git: Show Current File"
+			],
+			[
+				"git",
+				"Git: Show Tags"
+			],
+			[
+				"Snippet: Bibtex mi",
+				"Snippet: BibTeX Misc"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"shell",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"sideb",
+				"View: Toggle Side Bar"
+			],
+			[
+				"update",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"toggl",
+				"Preferences: LaTeXing Settings - Toggle Value"
+			],
+			[
+				"import",
+				"LaTeXing: Import Citation(s)"
+			],
+			[
+				"toggle va",
+				"Preferences: LaTeXing Settings - Toggle Value"
+			],
+			[
+				"latexi",
+				"LaTeXing: Rebuild Cache"
+			],
+			[
+				"count",
+				"LaTeXing: Texcount"
+			],
+			[
+				"project",
+				"Project: Edit"
+			],
+			[
+				"preferences latexing",
+				"Preferences: LaTeXing Settings - User"
+			],
+			[
+				"preferences latex",
+				"Preferences: LaTeXing Settings - Default"
+			],
+			[
+				"preferences la",
+				"Preferences: LaTeXing Settings - User (Extended)"
+			],
+			[
+				"latexing",
+				"LaTeXing: Fill"
+			],
+			[
+				"qu",
+				"Build: Choose Quick Build"
+			],
+			[
+				"togg",
+				"Preferences: LaTeXing Settings - Toggle Value"
+			],
+			[
+				"citation",
+				"LaTeXing: Import Citation(s)"
+			],
+			[
+				"toggle v",
+				"Preferences: LaTeXing Settings - Toggle Value"
+			],
+			[
+				"toggle val",
+				"Preferences: LaTeXing Settings - Toggle Value"
+			],
+			[
+				"latexin tog",
+				"Preferences: LaTeXing Settings - Toggle Value"
+			],
+			[
+				"citati",
+				"LaTeXing: Import Citation(s)"
+			],
+			[
+				"cite	",
+				"Snippet: Small Capitals Text"
+			],
+			[
+				"book",
+				"Snippet: BibTeX Book"
+			],
+			[
+				"bibtex",
+				"Snippet: BibTeX Misc"
+			],
+			[
+				"latexint",
+				"LaTeXing: Texcount"
+			],
+			[
+				"snippet bib",
+				"Snippet: BibTeX Book"
+			],
+			[
+				"googl",
+				"Google Spell Check"
+			],
+			[
+				"prefe",
+				"Preferences: Settings - User"
+			],
+			[
+				"prefere",
+				"Preferences: Settings - Default"
+			],
+			[
+				"dictionar",
+				"Dictionaries: Set Language (Current View)"
+			],
+			[
+				"dici",
+				"Dictionaries: Set Language"
+			],
+			[
+				"dictionary",
+				"LaTeXing: Word to Phrases Dictionary"
+			],
+			[
+				"preferences",
+				"Preferences: Settings - User"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			],
+			[
+				"preference",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"preferen",
+				"Preferences: Settings - User"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"package control",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"diction",
+				"Dictionaries: Set Language (Current View)"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"writa",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"jso",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"han",
+				"Snippet: text/x-handlebars script tag"
+			],
+			[
+				"instal ",
+				"Package Control: Install Package"
+			],
+			[
+				"pre",
+				"HTMLPrettify"
+			],
+			[
+				"brows",
+				"View In Browser"
+			],
+			[
+				"browser",
+				"View In Browser"
+			],
+			[
+				"dictio",
+				"Dictionaries: Set Language (Current View)"
+			],
+			[
+				"pr",
+				"HTMLPrettify"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"pretty",
+				"HTMLPrettify"
+			]
+		],
+		"width": 601.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"view.encoding()",
+			"var a = 2"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/felipecorrea/Dropbox/ForestWatchers/svModule"
+	],
+	"file_history":
+	[
+		"/home/felipecorrea/pgModelerApp/linuxdeploy.sh",
+		"/home/felipecorrea/pgmodeler/linuxdeploy.",
+		"/home/felipecorrea/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/felipecorrea/.config/sublime-text-3/Packages/Jedi - Python autocompletion/sublime_jedi.sublime-settings",
+		"/home/felipecorrea/Dropbox/ForestWatchers/svModule/svModule.sublime-project",
+		"/home/felipecorrea/.config/sublime-text-3/Packages/SublimePythonIDE/SublimePython.sublime-settings",
+		"/home/felipecorrea/.config/sublime-text-3/Packages/User/SublimePython.sublime-settings",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/app/static/js/contact/contact.html",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/app/static/js/mission/mission.html",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/app/static/js/team/team.html",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/app/static/index.html",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/app/static/js/home/home.html",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/app/static/js/home/home-controller.js",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/app/__init__.py",
+		"/home/felipecorrea/openshift/project/wsgi.py",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/config.py",
+		"/home/felipecorrea/Dropbox/ForestWatchers/run.py",
+		"/home/felipecorrea/openshift/project/setup.py",
+		"/home/felipecorrea/openshift/project/run.py",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/app/static/js/navbar/navbar-controller.js",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/app/static/js/maps/maps-service.js",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/app/static/js/maps/maps.home-controller.js",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/app/static/js/navbar/navbar.html",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/app/static/css/app.css",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/app/static/lib/angular-openlayers-directive/js/angular-openlayers-directive.js",
+		"/home/felipecorrea/openshift/project/requirements.txt",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/app/static/js/app.js",
+		"/home/felipecorrea/Dropbox/ForestWatchers/web/pyserver/api/templates/mapfinal.html",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/run.py",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/app/static/views/navbar/navbar.html",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/app/routes/index.py",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/app/static/views/home/home.html",
+		"/home/felipecorrea/maps/.openshift/config/web.xml",
+		"/home/felipecorrea/Downloads/openlayers-v3.1.1/css/ol.css",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/install.sh",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/requirements.txt",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/virtualenv.py",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/package.json",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/db_upgrade.py",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/db_create.py",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/bower.json",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/Gruntfile.js",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/app/models/__init__.py",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/install2.sh",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/.gitignore",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/fwportal.sublime-project",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/portal/templates/_layout.html",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/portal/static/js/app/navbar/navbar.html",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/portal/static/js/app/home/home.js",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/portal/static/js/app/main.js",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/portal/templates/home/home.html",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/portal/__init__.py",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/portal/views/home.py",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/portal/views/__init__.py",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/portal/templates/home/parts/login.html",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/portal/templates/home/js/controller/homeController.js",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/portal/templates/home/homeController.js",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/portal/templates/home/homeService.js",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/portal/templates/home/parts/home.html",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/portal/home/views.py",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/portal/templates/layout.html",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/portal/templates/home/templates/home.html",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/portal/templates/navbar/navbar.html",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/portal/static/angular-1.3.8/angular.js",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/portal/templates/macros/navbarLink.html",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/portal/templates/home/layout.html",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/portal/home/__init__.py",
+		"/home/felipecorrea/.config/sublime-text-3/Packages/User/SublimeCodeIntel.sublime-settings",
+		"/home/felipecorrea/.codeintel/config",
+		"/home/felipecorrea/.config/sublime-text-3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/home/felipecorrea/Dropbox/ForestWatchers/fwPortal/.codeintel/config",
+		"/home/felipecorrea/pybossa/pybossa/view/account.py",
+		"/home/felipecorrea/pybossa/pybossa/web.py",
+		"/home/felipecorrea/.config/sublime-text-3/Packages/User/GitGutter.sublime-settings",
+		"/home/felipecorrea/Dropbox/Latex/Textos/dissertacao/_writing/docs/nova_versao.aux",
+		"/home/felipecorrea/Dropbox/Latex/Textos/dissertacao/_writing/docs/nova_versao.tex",
+		"/home/felipecorrea/Dropbox/Latex/Textos/dissertacao/_writing/tdiinpe.cls",
+		"/home/felipecorrea/Dropbox/Latex/Textos/dissertacao/_writing/bibinpe.bst",
+		"/home/felipecorrea/Dropbox/Latex/Textos/dissertacao/inpe_proposta/bib/publicacao.bib",
+		"/home/felipecorrea/Dropbox/Latex/Textos/inpe_proposta/docs/projectplan.tex",
+		"/home/felipecorrea/Dropbox/Latex/Textos/dissertacao/inpe_proposta/docs/pt_forestwatchers.tex",
+		"/home/felipecorrea/Dropbox/Latex/Textos/dissertacao/_writing/docs/revisao_bibliografica.tex",
+		"/home/felipecorrea/Dropbox/Latex/Textos/dissertacao/_writing/docs/resultado_e_discussoes.tex",
+		"/home/felipecorrea/Dropbox/Latex/Textos/dissertacao/_writing/docs/abreviaturasesiglas.tex",
+		"/home/felipecorrea/Dropbox/Latex/Textos/dissertacao/_writing/bib/publicacao_nova.bib",
+		"/home/felipecorrea/Dropbox/Latex/Textos/inpe_proposta/bkp/docs/simbolos.tex",
+		"/home/felipecorrea/Dropbox/Latex/Textos/inpe_proposta/bkp/docs/abreviaturasesiglas.tex",
+		"/home/felipecorrea/Dropbox/Latex/Textos/dissertacao/inpe_proposta/docs/pt_rainforests.tex",
+		"/home/felipecorrea/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/felipecorrea/Downloads/info%3Adoi%2F10.1371%2Fjournal.pone.0018927.bib",
+		"/home/felipecorrea/Dropbox/Latex/Textos/dissertacao/_writing/publicacao.tex",
+		"/home/felipecorrea/Dropbox/Latex/Textos/dissertacao/_writing/bib/publicacao.bib",
+		"/home/felipecorrea/.config/sublime-text-3/Installed Packages/Theme - Brogrammer.sublime-package_FILES/Brogrammer.sublime-theme",
+		"/home/felipecorrea/.config/sublime-text-3/Installed Packages/Theme - Brogrammer.sublime-package_FILES/brogrammer.tmTheme",
+		"/home/felipecorrea/Dropbox/Latex/Textos/dissertacao/_writing/publicacao.fdb_latexmk",
+		"/home/felipecorrea/Dropbox/Latex/Textos/dissertacao/_writing/docs/contracapa.tex",
+		"/etc/bumblebee/bumblebee.conf",
+		"/home/felipecorrea/Desktop/todo-spl.tex",
+		"/home/felipecorrea/.config/sublime-text-3/Packages/User/LaTeXing.sublime-settings",
+		"/home/felipecorrea/.config/sublime-text-3/Packages/LaTeXing/LaTeXing.sublime-settings",
+		"/home/felipecorrea/Dropbox/Latex/Textos/dissertacao/_writing/bib/example.bib",
+		"/home/felipecorrea/Dropbox/Latex/Textos/dissertacao/_writing/_dissertacao.sublime-project",
+		"/home/felipecorrea/.config/sublime-text-3/Packages/LaTeXing/latexing/api/mendeley.map",
+		"/home/felipecorrea/.config/sublime-text-3/Packages/User/LaTeXing/mendeley.map",
+		"/home/felipecorrea/.config/sublime-text-3/Packages/LaTeXing/LaTeX.sublime-build",
+		"/home/felipecorrea/Dropbox/Latex/Textos/dissertacao/_writing/docs/introducao.aux",
+		"/home/felipecorrea/Dropbox/Latex/Textos/dissertacao/sandy_template/docs/introducao.tex",
+		"/home/felipecorrea/Dropbox/Latex/Textos/dissertacao/_writing/docs/resumo.tex",
+		"/home/felipecorrea/Dropbox/Latex/Textos/dissertacao/_writing/docs/introducao.tex",
+		"/home/felipecorrea/Dropbox/Latex/Textos/dissertacao/_writing/docs/metodologia.tex",
+		"/home/felipecorrea/Dropbox/Latex/Textos/dissertacao/_writing/docs/old/dia_17.tex",
+		"/home/felipecorrea/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/felipecorrea/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
+		"/home/felipecorrea/Desktop/2013-08-21_sql_picturesdb",
+		"/home/felipecorrea/Dropbox/ForestWatchers/web/README",
+		"/home/felipecorrea/Dropbox/ForestWatchers/app/ForestWatchers.net/ForestWatchers.net/www/index.html",
+		"/home/felipecorrea/Dropbox/ForestWatchers/web/pyserver/api/minserver.py",
+		"/home/felipecorrea/Dropbox/ForestWatchers/web/pyserver/api/templates/index.html",
+		"/home/felipecorrea/Dropbox/ForestWatchers/web/pyweb.sh",
+		"/home/felipecorrea/Dropbox/ForestWatchers/web/pyserver/api/models.py",
+		"/home/felipecorrea/Dropbox/ForestWatchers/web/pyserver/api/contrib/minserver.site",
+		"/home/felipecorrea/Dropbox/ForestWatchers/web/pyserver/api/contrib/minserver.wsgi",
+		"/home/felipecorrea/Dropbox/ForestWatchers/web/pyserver/api/minserver",
+		"/run/user/felipecorrea/gvfs/sftp:host=tugui.dmz.inpe.br,user=felipe.correa/home/felipe.correa/mapfinal.html",
+		"/home/felipecorrea/Dropbox/ForestWatchers/web/pyserver/api/convert_audio_files.sh",
+		"/home/felipecorrea/Dropbox/ForestWatchers/web/pyserver/api/run.py_mod",
+		"/home/felipecorrea/ - /playlist.m3u",
+		"/home/felipecorrea/Dropbox/Latex/Textos/dissertacao/scaffolding.md"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"$QMAKE_ROOT",
+			"qt",
+			"VIDEOS",
+			"AUDIO",
+			".map",
+			"fullscre",
+			"small-logo",
+			"brand",
+			"</i>",
+			".html",
+			"center-text",
+			"contact",
+			".directive",
+			"marker",
+			"ol-marker",
+			"opacit",
+			"tile",
+			"/*",
+			"#bs",
+			"bs-example-navbar-collapse-3",
+			"controll",
+			">\n",
+			"python",
+			"regi",
+			"sigin",
+			"account",
+			"ref",
+			"survey",
+			"realizad",
+			"númera",
+			"núm",
+			"inúm",
+			"jp",
+			"jpeg",
+			"dinucci",
+			"kinti",
+			"pereira",
+			"wikimapia",
+			"forestwatc",
+			"web 2.0",
+			"cunhado",
+			"sensor",
+			"subfigure",
+			"ca",
+			"\\caption",
+			"caption2",
+			"caption",
+			"subfigure",
+			"caption",
+			"ver fig",
+			"landsat",
+			"include",
+			"liu",
+			"kin",
+			"nepstad",
+			"hassan",
+			"achard",
+			"include",
+			"thesis",
+			"marinalva",
+			"bossa",
+			"amazô",
+			"grap",
+			"fig",
+			"palm",
+			"people",
+			"editing",
+			"forum",
+			"wiki",
+			"anderson",
+			"boinc",
+			"os volunt",
+			"theme",
+			"moderno",
+			"soares",
+			"type",
+			"selecte",
+			"statu",
+			"darwin",
+			"the orig",
+			"Brogrammer",
+			"hy",
+			"mendele",
+			"console",
+			"global",
+			"bib",
+			"bibtex",
+			"mendele",
+			"cite",
+			"spell",
+			"dictiona",
+			"AllLayers",
+			"darwin",
+			"termo",
+			"cientistas cidadã",
+			"social",
+			"escore",
+			"citizen scie",
+			"uk",
+			"bird",
+			"-audio.",
+			"audio",
+			"data-href",
+			"<audio",
+			".fancybox",
+			"'fancybox",
+			"'.fancy",
+			"'.fancybox",
+			"_link",
+			"fbmanual",
+			"fancybox",
+			"bind",
+			"_link",
+			"movie_link",
+			"mov_link",
+			"video_link",
+			"video",
+			"fancybox",
+			"fancybox.",
+			"webm",
+			"webpm",
+			"audio_",
+			"fancybox",
+			"video_",
+			"request",
+			"server",
+			"'[data-layer",
+			"[data-layer="
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "__init__.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 514,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								449,
+								449
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/felipecorrea/.config/sublime-text-3/Packages/User/sublime_jedi.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 46,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								43,
+								43
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "run.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 27,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								27,
+								27
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "configure.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12,
+								12
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1411,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2,
+								2
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/felipecorrea/pgmodeler/linuxdeploy.",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/home/felipecorrea/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 686,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/home/felipecorrea/.config/sublime-text-3/Packages/Jedi - Python autocompletion/sublime_jedi.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 845,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 207.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 110.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"project": "svModule.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"nova",
+				"docs/nova_versao.tex"
+			],
+			[
+				"pop",
+				"~/Dropbox/ForestWatchers/web/pyserver/api/static/OpenLayers/Popover.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 319.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 1
+	}
+}

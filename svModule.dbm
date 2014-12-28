@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+CAUTION: Do not modify this file unless you know what you are doing.
+         Unexpected results may occur if the code is changed deliberately.
+-->
+<dbmodel pgmodeler-ver="0.8.0-beta" last-position="0,0" last-zoom="1"
+	 default-schema="public" default-owner="postgres">
+<database name="svModule" prepend-at-bod="true">
+	<prepended-sql><![CDATA[CREATE EXTENSION postgis;]]></prepended-sql>
+</database>
+
+<tag name="BASIC FOR SVMODULE">
+	<style id="table-body" colors="#fcfcfc,#fcfcfc,#808080"/>
+	<style id="table-ext-body" colors="#fcfcfc,#fcfcfc,#808080"/>
+	<style id="table-name" colors="#000000"/>
+	<style id="table-schema-name" colors="#000000"/>
+	<style id="table-title" colors="#4aa5ff,#4aa5ff,#20486f"/>
+</tag>
+<schema name="public" protected="true" fill-color="#e1e1e1" sql-disabled="true">
+</schema>
+
+<table name="TUSER">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="599" y="57"/>
+	<column name="userid" not-null="true">
+		<type name="bigserial"/>
+	</column>
+	<column name="email" not-null="true">
+		<type name="varchar" length="200"/>
+	</column>
+	<column name="name" not-null="true">
+		<type name="varchar" length="200"/>
+	</column>
+	<column name="pwdhash">
+		<type name="varchar" length="200"/>
+	</column>
+	<column name="verified" not-null="true" default-value="False">
+		<type name="boolean"/>
+	</column>
+	<column name="creation_date">
+		<type name="timestamp" with-timezone="true"/>
+	</column>
+	<constraint name="TUSER_PK" type="pk-constr" table="public.&quot;TUSER&quot;">
+		<columns names="userid" ref-type="src-columns"/>
+	</constraint>
+	<constraint name="UQ_EMAIL" type="uq-constr" table="public.&quot;TUSER&quot;">
+		<columns names="email" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="DEVICE">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="138" y="58"/>
+	<column name="deviceid" not-null="true">
+		<type name="uuid"/>
+		<comment><![CDATA[COMES FROM DEVICE ALREADY]]></comment>
+	</column>
+	<column name="model">
+		<type name="varchar" length="100"/>
+	</column>
+	<column name="cordova">
+		<type name="varchar" length="100"/>
+	</column>
+	<column name="platform">
+		<type name="varchar" length="100"/>
+	</column>
+	<column name="version">
+		<type name="varchar" length="100"/>
+	</column>
+	<column name="name">
+		<type name="varchar" length="100"/>
+	</column>
+	<column name="userid">
+		<type name="bigint"/>
+	</column>
+	<column name="current">
+		<type name="bit"/>
+	</column>
+	<column name="creation_date">
+		<type name="timestamp" with-timezone="true"/>
+	</column>
+	<constraint name="PK_MYDEVICE" type="pk-constr" table="public.&quot;DEVICE&quot;">
+		<columns names="deviceid" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="RESOURCE">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="139" y="280"/>
+	<column name="resourceid" not-null="true">
+		<type name="uuid"/>
+	</column>
+	<column name="type" not-null="true">
+		<type name="varchar" length="50"/>
+	</column>
+	<column name="filepath" not-null="true">
+		<type name="text"/>
+	</column>
+	<column name="creation_date">
+		<type name="timestamp" with-timezone="true"/>
+	</column>
+	<column name="deviceid" not-null="true">
+		<type name="uuid"/>
+	</column>
+	<column name="geom" not-null="true">
+		<type name="geometry" spatial-type="POINT" variation="0" srid="4326"/>
+	</column>
+	<constraint name="RESOURCE_PK" type="pk-constr" table="public.&quot;RESOURCE&quot;">
+		<columns names="resourceid" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<index name="idxtype" table="public.&quot;RESOURCE&quot;"
+	 concurrent="false" unique="false" fast-update="false" buffering="false"
+	 index-type="btree" factor="0">
+		<idxelement use-sorting="true" nulls-first="false" asc-order="true">
+			<column name="type"/>
+		</idxelement>
+</index>
+
+<table name="ATTRIBUTES">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="600" y="196"/>
+	<column name="attributeid" not-null="true">
+		<type name="serial"/>
+	</column>
+	<column name="label">
+		<type name="varchar" length="300"/>
+	</column>
+	<column name="value">
+		<type name="text" length="10000"/>
+	</column>
+	<column name="datatype">
+		<type name="varchar" length="100"/>
+	</column>
+	<column name="resourceid">
+		<type name="uuid"/>
+	</column>
+	<constraint name="PK_ATTRIBUTE" type="pk-constr" table="public.&quot;ATTRIBUTES&quot;">
+		<columns names="attributeid" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<index name="GIST_GEOM" table="public.&quot;RESOURCE&quot;"
+	 concurrent="false" unique="false" fast-update="false" buffering="false"
+	 index-type="gist" factor="0">
+		<idxelement use-sorting="false">
+			<column name="geom"/>
+		</idxelement>
+</index>
+
+<constraint name="FK_MYDEVICE_USER" type="fk-constr" comparison-type="MATCH FULL"
+	 upd-action="NO ACTION" del-action="NO ACTION" ref-table="public.&quot;TUSER&quot;" table="public.&quot;DEVICE&quot;">
+	<columns names="userid" ref-type="src-columns"/>
+	<columns names="userid" ref-type="dst-columns"/>
+</constraint>
+
+<constraint name="FK_RESOURCE_DEVICE" type="fk-constr" comparison-type="MATCH FULL"
+	 upd-action="NO ACTION" del-action="NO ACTION" ref-table="public.&quot;DEVICE&quot;" table="public.&quot;RESOURCE&quot;">
+	<columns names="deviceid" ref-type="src-columns"/>
+	<columns names="deviceid" ref-type="dst-columns"/>
+</constraint>
+
+<constraint name="FK_ATTRIBUTE_RESOURCE" type="fk-constr" comparison-type="MATCH FULL"
+	 upd-action="NO ACTION" del-action="NO ACTION" ref-table="public.&quot;RESOURCE&quot;" table="public.&quot;ATTRIBUTES&quot;">
+	<columns names="resourceid" ref-type="src-columns"/>
+	<columns names="resourceid" ref-type="dst-columns"/>
+</constraint>
+
+<relationship name="&quot;rel_ATTRIBUTES_RESOURCE&quot;" type="relfk"
+	 src-table="public.&quot;ATTRIBUTES&quot;"
+	 dst-table="public.&quot;RESOURCE&quot;"
+	 src-required="false" dst-required="false"/>
+
+<relationship name="&quot;rel_MYDEVICE_TUSER&quot;" type="relfk"
+	 src-table="public.&quot;DEVICE&quot;"
+	 dst-table="public.&quot;TUSER&quot;"
+	 src-required="false" dst-required="false"/>
+
+<relationship name="&quot;rel_RESOURCE_MYDEVICE&quot;" type="relfk"
+	 src-table="public.&quot;RESOURCE&quot;"
+	 dst-table="public.&quot;DEVICE&quot;"
+	 src-required="false" dst-required="false"/>
+
+</dbmodel>
