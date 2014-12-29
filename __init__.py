@@ -36,7 +36,8 @@ from sqlalchemy.dialects.postgresql import BIT, UUID, TEXT
 from sqlalchemy.orm import relationship, backref
 from sqlalchemy.ext.declarative import declarative_base
 from geoalchemy2 import Geometry
-
+import geoalchemy2.functions as geofunc
+import json
 
 
 class User(db.Model):
@@ -49,7 +50,7 @@ class User(db.Model):
     creation_date = db.Column(db.DateTime(True))
 
 class Device(db.Model):
-    __tablename__ = 'MYDEVICE'
+    __tablename__ = 'DEVICE'
     deviceid = db.Column(Integer, primary_key=True)
     device_uuid = db.Column(UUID)
     model = db.Column ( db.String(100))
@@ -68,9 +69,16 @@ class Resource(db.Model):
     type = db.Column( db.String(50) )
     filepath = db.Column( TEXT )
     creation_date = db.Column( db.DateTime(True))
-    deviceid = db.Column( Integer, ForeignKey("MYDEVICE.deviceid")  )
+    deviceid = db.Column( Integer, ForeignKey("DEVICE.deviceid")  )
     # geom = Column(Geometry('POINT', 4326))
-db.create_all()
+    geom = Column(Geometry(geometry_type='POINT', srid=4326))
+    def GeoJSON(self):
+        g = json.loads(db.session.scalar(geofunc.ST_AsGeoJSON(self.geom, 15, 2)))
+        return g
+    
+
+
+#db.create_all()
 #####
 # Create the Flask-Restless API manager.
 manager = flask.ext.restless.APIManager(app, flask_sqlalchemy_db=db)
@@ -79,6 +87,9 @@ manager = flask.ext.restless.APIManager(app, flask_sqlalchemy_db=db)
 # default. Allowed HTTP methods can be specified as well.
 manager.create_api(User, collection_name='user', methods=['GET', 'POST', 'DELETE', 'PUT'])
 manager.create_api(Device, collection_name='device', methods=['GET', 'POST'])
+
+
+manager.create_api(Resource, collection_name='resource', methods=['GET', 'POST'], include_methods = ['GeoJSON'], exclude_columns=['geom'])
 
 def add_cors_headers(response):
     response.headers['Access-Control-Allow-Origin'] = '*'
