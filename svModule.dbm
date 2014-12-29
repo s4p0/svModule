@@ -22,9 +22,9 @@ CAUTION: Do not modify this file unless you know what you are doing.
 <table name="TUSER">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="599" y="57"/>
+	<position x="478" y="74"/>
 	<column name="userid" not-null="true">
-		<type name="bigserial"/>
+		<type name="serial"/>
 	</column>
 	<column name="email" not-null="true">
 		<type name="varchar" length="200"/>
@@ -54,6 +54,12 @@ CAUTION: Do not modify this file unless you know what you are doing.
 	<role name="postgres"/>
 	<position x="138" y="58"/>
 	<column name="deviceid" not-null="true">
+		<type name="serial"/>
+	</column>
+	<column name="userid">
+		<type name="integer"/>
+	</column>
+	<column name="device_uuid">
 		<type name="uuid"/>
 		<comment><![CDATA[COMES FROM DEVICE ALREADY]]></comment>
 	</column>
@@ -72,14 +78,11 @@ CAUTION: Do not modify this file unless you know what you are doing.
 	<column name="name">
 		<type name="varchar" length="100"/>
 	</column>
-	<column name="userid">
-		<type name="bigint"/>
-	</column>
 	<column name="current">
 		<type name="bit"/>
 	</column>
 	<column name="creation_date">
-		<type name="timestamp" with-timezone="true"/>
+		<type name="date"/>
 	</column>
 	<constraint name="PK_MYDEVICE" type="pk-constr" table="public.&quot;DEVICE&quot;">
 		<columns names="deviceid" ref-type="src-columns"/>
@@ -91,7 +94,7 @@ CAUTION: Do not modify this file unless you know what you are doing.
 	<role name="postgres"/>
 	<position x="139" y="280"/>
 	<column name="resourceid" not-null="true">
-		<type name="uuid"/>
+		<type name="serial"/>
 	</column>
 	<column name="type" not-null="true">
 		<type name="varchar" length="50"/>
@@ -103,7 +106,7 @@ CAUTION: Do not modify this file unless you know what you are doing.
 		<type name="timestamp" with-timezone="true"/>
 	</column>
 	<column name="deviceid" not-null="true">
-		<type name="uuid"/>
+		<type name="integer"/>
 	</column>
 	<column name="geom" not-null="true">
 		<type name="geometry" spatial-type="POINT" variation="0" srid="4326"/>
@@ -124,7 +127,7 @@ CAUTION: Do not modify this file unless you know what you are doing.
 <table name="ATTRIBUTES">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="600" y="196"/>
+	<position x="594" y="220"/>
 	<column name="attributeid" not-null="true">
 		<type name="serial"/>
 	</column>
@@ -138,7 +141,7 @@ CAUTION: Do not modify this file unless you know what you are doing.
 		<type name="varchar" length="100"/>
 	</column>
 	<column name="resourceid">
-		<type name="uuid"/>
+		<type name="integer"/>
 	</column>
 	<constraint name="PK_ATTRIBUTE" type="pk-constr" table="public.&quot;ATTRIBUTES&quot;">
 		<columns names="attributeid" ref-type="src-columns"/>
@@ -153,7 +156,7 @@ CAUTION: Do not modify this file unless you know what you are doing.
 		</idxelement>
 </index>
 
-<constraint name="FK_MYDEVICE_USER" type="fk-constr" comparison-type="MATCH FULL"
+<constraint name="FK_DEVICE_USER" type="fk-constr" comparison-type="MATCH FULL"
 	 upd-action="NO ACTION" del-action="NO ACTION" ref-table="public.&quot;TUSER&quot;" table="public.&quot;DEVICE&quot;">
 	<columns names="userid" ref-type="src-columns"/>
 	<columns names="userid" ref-type="dst-columns"/>
@@ -176,14 +179,14 @@ CAUTION: Do not modify this file unless you know what you are doing.
 	 dst-table="public.&quot;RESOURCE&quot;"
 	 src-required="false" dst-required="false"/>
 
-<relationship name="&quot;rel_MYDEVICE_TUSER&quot;" type="relfk"
-	 src-table="public.&quot;DEVICE&quot;"
-	 dst-table="public.&quot;TUSER&quot;"
-	 src-required="false" dst-required="false"/>
-
 <relationship name="&quot;rel_RESOURCE_MYDEVICE&quot;" type="relfk"
 	 src-table="public.&quot;RESOURCE&quot;"
 	 dst-table="public.&quot;DEVICE&quot;"
+	 src-required="false" dst-required="false"/>
+
+<relationship name="&quot;rel_DEVICE_TUSER&quot;" type="relfk"
+	 src-table="public.&quot;DEVICE&quot;"
+	 dst-table="public.&quot;TUSER&quot;"
 	 src-required="false" dst-required="false"/>
 
 </dbmodel>

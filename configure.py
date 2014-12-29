@@ -1,2 +1,2 @@
 DEBUG = True
-SQLALCHEMY_CONNECTION = 'postgresql://tester:tester@localhost/svModule'
+SQLALCHEMY_DATABASE_URI = 'postgresql://tester:tester@localhost/svModule'
